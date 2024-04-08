@@ -1,41 +1,45 @@
-import React from 'react';
+import React from 'react'
 import * as S from './Style.jsx';
-
-
 
 function Projetos() {
     return (
-        <S.MainProjetos>
-            <S.DivProjetos>
-                <div>
-                    <h2>Projeto 1</h2>
-                    <h3>descrição</h3>
+        <>
+            <S.MainProjetos>
+                <S.DivProjetos>
+                    <S.DivProjeto1>
+                        <img src="" alt="" />
+                        <h2>Nome Projeto</h2>
+                        <S.Button>
+                            Saiba Mais
+                        </S.Button>
+                    </S.DivProjeto1>
 
-                    <button>Ver Projeto</button>
-                </div>
+                    <S.DivProjeto2>
+                        <img src="" alt="" />
+                        <h2>Nome Projeto</h2>
+                        <S.Button>
+                            Saiba Mais
+                        </S.Button>
+                    </S.DivProjeto2>
 
-                <div>
-                    <h2>Projeto 2</h2>
-                    <h3>descrição</h3>
+                    <S.DivProjeto3>
+                        <img src="" alt="" />
+                        <h2>Nome Projeto</h2>
+                        <S.Button>
+                            Saiba Mais
+                        </S.Button>
+                    </S.DivProjeto3>
 
-                    <button>Ver Projeto</button>
-                </div>
-
-                <div>
-                    <h2>Projeto 3</h2>
-                    <h3>descrição</h3>
-
-                    <button>Ver Projeto</button>
-                </div>
-
-                <div>
-                    <h2>Projeto 4</h2>
-                    <h3>descrição</h3>
-
-                    <button>Ver Projeto</button>
-                </div>
-            </S.DivProjetos>
-        </S.MainProjetos>
+                    <S.DivProjeto4>
+                        <img src="" alt="" />
+                        <h2>Nome Projeto</h2>
+                        <S.Button>
+                            Saiba Mais
+                        </S.Button>
+                    </S.DivProjeto4>
+                </S.DivProjetos>
+            </S.MainProjetos>
+        </>
     )
 }
 

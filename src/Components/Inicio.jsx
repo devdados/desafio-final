@@ -1,45 +1,38 @@
 import React from 'react';
-import Perfil from './ImagensPortfolio/perfil.png';
+import Perfil from './ImagensPortfolio/perfil.png'
+import Front from './ImagensPortfolio/icone-front.png'
+import Mobile from './ImagensPortfolio/icone.mobile-verde.png'
+import Games from './ImagensPortfolio/icone-game.png'
 import * as S from './Style.jsx';
 
 function Inicio() {
     return (
-        <S.ContainerInicio>
-            <S.Section1>
-                <h1>Andréa Rangel</h1>
-                <S.Perfil src={Perfil} alt="" />
-                <img src="" alt="" />
+        <>
+            <S.MainInicio>
+                <S.SectionInicio>
+                    <h1>Andréa Rangel</h1>
+                    <img src={Perfil} alt="" />
+                </S.SectionInicio>
 
-            </S.Section1>
-            <div>
-                <h2>Desenvolvedora Front-End</h2>
-                <img src="" alt="" />
-            </div>
+                <S.SectionApresentacao>
+                    <S.SectionDescri1>
+                        <h2>Desenvolvedora Front-End</h2>
+                        <img src={Front} alt="" />
+                    </S.SectionDescri1>
 
-            <div>
-                <h2>Desenvolvedora Mobile</h2>
-                <img src="" alt="" />
-            </div>
+                    <S.SectionDescri2>
+                        <img src={Mobile} alt="" />
+                        <h2>Desenvolvedora Mobile</h2>
+                    </S.SectionDescri2>
 
-            <div>
-                <h2>Desenvolvedora de Jogos</h2>
-                <img src="" alt="" />
-            </div>
+                    <S.SectionDescri3>
+                        <h2>Desenvolvedora de Jogos</h2>
+                        <img src={Games} alt="" />
+                    </S.SectionDescri3>
+                </S.SectionApresentacao>
 
-            <div>
-                <h2>Desenvolvedora de Conteúdos</h2>
-                <img src="" alt="" />
-            </div>
-
-
-
-
-
-
-            <S.Section2>
-
-            </S.Section2>
-        </S.ContainerInicio>
+            </S.MainInicio>
+        </>
     )
 }
 
